@@ -1,0 +1,37 @@
+body{
+    background-color: orange;
+}
+h1, h2{
+    text-align: center;
+}
+#logo{
+    color:white;
+}
+.search{
+    text-align: center;
+}
+.image{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.search .btn{
+    /* font-size: 24px; */
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: center;
+}
