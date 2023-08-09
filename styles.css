@@ -1,12 +1,33 @@
+*{
+    font-family: robot, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
-    background-color: orange;
+    margin: 0;
+    padding : 0;
 }
 h1, h2{
     text-align: center;
 }
 #logo{
-    color:white;
+    color:#BF921C;
 }
+.title{
+    color: #BF921C;
+}
+
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    max-width:1200px;
+}
+
 .search{
     text-align: center;
 }
@@ -14,24 +35,37 @@ h1, h2{
     display:block;
     margin-left:auto;
     margin-right: auto;
-    width:50%;
+    hight: auto;
+    width:80%;
 }
 
 .search .btn{
-    /* font-size: 24px; */
     background-color: green;
     color: white;
     border-radius: 5px;
 }
-
-ul{
+.popular-recipes{
     text-align: center;
     list-style: none;
 }
-ul li a{
+.fat-label{
+    width: 200px
+    height: auto;
+    background-color: #DECE93;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+ul li{
     text-decoration: none;
 }
 
 .copyright{
+    height: 50px;
+    background-color: #4B4848;
+    color: white;
     text-align: center;
+    padding-top : 16px;
+
 }
